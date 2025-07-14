@@ -27,7 +27,7 @@ pip install langgraph langchain openai python-dotenv
 ### 2️⃣ Clone This Repository
 
 ```bash
-git clone https://github.com/your-username/langgraph-crash-course.git
+https://github.com/Vignehwaran/LangGraph-Crash-Course.git
 cd langgraph-crash-course
 ```
 
@@ -47,23 +47,7 @@ python 01_basic_graph.py
 
 ---
 
-## 📂 Project Structure
 
-```bash
-langgraph-crash-course/
-├── assets/                     # Images used in README
-│   ├── langgraph_banner.png
-│   └── langgraph_flow.png
-├── 01_basic_graph.py           # Basic graph node execution
-├── 02_state_update.py          # Shared memory/state update
-├── 03_conditional_flow.py      # Conditional graph edges
-├── 04_interrupts.py            # Human-in-the-loop (interrupt)
-├── 05_multi_agent.py           # Multi-agent graph interaction
-├── .env                        # Environment config (ignored in git)
-└── README.md                   # 📘 This file
-```
-
----
 
 ## 🎯 Course Highlights
 
