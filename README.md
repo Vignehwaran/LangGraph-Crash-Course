@@ -42,7 +42,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 ### 4️⃣ Run Example
 
 ```bash
-python 01_basic_graph.py
+python 01_basicchatbot.py
 ```
 
 ---
