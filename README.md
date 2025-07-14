@@ -1,6 +1,6 @@
 # 🌐 LangGraph Crash Course
 
-![LangGraph Banner](./assets/langgraph_banner.png)
+![LangGraph Banner](langgraph_banner.png)
 
 Welcome to the **LangGraph Crash Course** – a hands-on, beginner-friendly guide to building stateful, multi-agent applications using [LangGraph](https://github.com/langchain-ai/langgraph). This course will walk you through the fundamental concepts of LangGraph and help you build real-world AI workflows with ease.
 
