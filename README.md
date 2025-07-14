@@ -26,7 +26,6 @@ pip install langgraph langchain openai python-dotenv
 
 ### 2️⃣ Clone This Repository
 
-```bash
 https://github.com/Vignehwaran/LangGraph-Crash-Course.git
 cd langgraph-crash-course
 ```
@@ -44,6 +43,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```bash
 python 01_basicchatbot.py
 
+```
 ```
 
 
