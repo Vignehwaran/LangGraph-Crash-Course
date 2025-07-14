@@ -1,31 +1,158 @@
-# 🦜🔗 LangGraph Crash Course
 
-This is a beginner-friendly crash course to help you learn and build applications using **LangGraph**, a framework built on top of LangChain for creating multi-step, stateful, and agent-based LLM workflows.
+````markdown
+# 🌐 LangGraph Crash Course
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/langgraph-crash-course/main/assets/langgraph_banner.png" width="700" alt="LangGraph Crash Course Banner">
+</p>
 
-## 📌 What is LangGraph?
-
-LangGraph helps you build logic-based flows using:
-
-- 🔹 **Nodes** – Functional units (LLMs, tools)
-- 🔸 **Edges** – Connections between nodes
-- 📦 **State** – Shared memory passed across steps
-- ⚙️ **Graph** – Complete workflow with control logic
+Welcome to the **LangGraph Crash Course** – your step-by-step guide to mastering stateful multi-agent workflows using LangGraph!  
+This course is perfect for AI developers, LangChain users, and automation enthusiasts looking to create graph-based LLM applications.
 
 ---
 
-## 🖼️ Visual Overview
+## 📦 What is LangGraph?
 
-![LangGraph Overview](./Screenshot%202025-07-14%20125642.png)
+LangGraph is a **stateful, multi-agent orchestration framework** built on top of [LangChain](https://github.com/langchain-ai/langchain).  
+It introduces **graph-based programming** to manage LLM workflows using:
 
-LangGraph sits on top of **LangChain** and works well with **LangSmith** for debugging and tracing.
+- ✅ Nodes (functions / agents)
+- 🔁 Conditional paths
+- 🔂 Cycles & loops
+- 🧠 Shared memory (state)
+- 🧑‍💻 Human-in-the-loop support
 
 ---
 
+## 🚀 Getting Started
 
-## 🚀 How to Run
+### 1️⃣ Install Dependencies
 
-1. Install dependencies:
 ```bash
 pip install langgraph langchain openai python-dotenv
+````
+
+### 2️⃣ Clone This Repository
+
+```bash
+git clone https://github.com/your-username/langgraph-crash-course.git
+cd langgraph-crash-course
+```
+
+### 3️⃣ Add Your API Key
+
+Create a `.env` file in the root folder:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+### 4️⃣ Run Example
+
+```bash
+python 01_basic_graph.py
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+langgraph-crash-course/
+├── assets/                     # Images used in README
+│   ├── langgraph_banner.png
+│   └── langgraph_flow.png
+├── 01_basic_graph.py           # Basic graph node execution
+├── 02_state_update.py          # Shared memory/state update
+├── 03_conditional_flow.py      # Conditional graph edges
+├── 04_interrupts.py            # Human-in-the-loop (interrupt)
+├── 05_multi_agent.py           # Multi-agent graph interaction
+├── .env                        # Environment config (ignored in git)
+└── README.md                   # 📘 This file
+```
+
+---
+
+## 🎯 Course Highlights
+
+* ✅ Understand LangGraph structure
+* 🧩 Build nodes, edges, and state
+* 🔄 Handle loops and conditional flows
+* 👨‍💻 Implement human-in-the-loop via interrupts
+* 🧠 Chain multiple LLM tools together
+* ⚙️ Optimize workflows using LangGraph's memory
+
+---
+
+## 🔍 What You’ll Build
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/langgraph-crash-course/main/assets/langgraph_flow.png" width="600" alt="LangGraph Flow Preview">
+</p>
+
+You’ll create:
+
+* A simple graph with a single node
+* A graph that updates and shares state
+* Conditional branching based on logic
+* Interrupt-enabled graphs with human input
+* Multi-agent cooperative systems using LangGraph
+
+---
+
+## 📚 Additional Resources
+
+* [LangGraph GitHub](https://github.com/langchain-ai/langgraph)
+* [LangGraph Docs](https://docs.langchain.com/langgraph/)
+* [LangChain Framework](https://www.langchain.com)
+
+---
+
+## 🧠 Prerequisites
+
+Before starting, make sure you have:
+
+* 🐍 Python 3.9+
+* 🔑 OpenAI or other LLM API Key
+* 💡 Basic understanding of LangChain or LLMs
+
+---
+
+## 🙌 Contributing
+
+Found a bug or want to suggest a new use-case example?
+**Pull Requests and issues are always welcome!**
+
+If you like this repo, give it a ⭐ to support the project.
+
+---
+
+## 🪪 License
+
+This project is released under the **MIT License** – free to use, modify, and share.
+
+---
+
+## ✨ Created By
+
+**Vigneshwaran (Vicky)**
+📍 AI Developer | Data Science Enthusiast | Educator
+🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) | 🐦 [Twitter](https://twitter.com/your-handle)
+
+---
+
+> 🚀 Let’s build powerful LLM agents together using LangGraph!
+
+```
+
+---
+
+✅ To finalize:
+- Upload your images (`langgraph_banner.png`, `langgraph_flow.png`) to `/assets` folder.
+- Replace:
+  - `your-username` → your GitHub username
+  - `your-profile` → your LinkedIn slug
+  - `your-handle` → your Twitter/X username
+
+Would you like me to generate the `langgraph_banner.png` and `langgraph_flow.png` now?
+```
