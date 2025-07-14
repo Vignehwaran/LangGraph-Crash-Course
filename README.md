@@ -1,36 +1,28 @@
-
-````markdown
 # 🌐 LangGraph Crash Course
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/langgraph-crash-course/main/assets/langgraph_banner.png" width="700" alt="LangGraph Crash Course Banner">
-</p>
+![LangGraph Banner](./assets/langgraph_banner.png)
 
-Welcome to the **LangGraph Crash Course** – your step-by-step guide to mastering stateful multi-agent workflows using LangGraph!  
-This course is perfect for AI developers, LangChain users, and automation enthusiasts looking to create graph-based LLM applications.
+Welcome to the **LangGraph Crash Course** – a hands-on, beginner-friendly guide to building stateful, multi-agent applications using [LangGraph](https://github.com/langchain-ai/langgraph). This course will walk you through the fundamental concepts of LangGraph and help you build real-world AI workflows with ease.
 
 ---
 
 ## 📦 What is LangGraph?
 
-LangGraph is a **stateful, multi-agent orchestration framework** built on top of [LangChain](https://github.com/langchain-ai/langchain).  
-It introduces **graph-based programming** to manage LLM workflows using:
-
-- ✅ Nodes (functions / agents)
-- 🔁 Conditional paths
-- 🔂 Cycles & loops
-- 🧠 Shared memory (state)
-- 🧑‍💻 Human-in-the-loop support
+LangGraph is a powerful Python framework that combines LangChain with **state machines** and **graphs** to manage AI agent workflows. Perfect for building:
+- Autonomous agents
+- Human-in-the-loop systems
+- Multi-step reasoning flows
+- Research assistants & more!
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-### 1️⃣ Install Dependencies
+Install dependencies:
 
 ```bash
 pip install langgraph langchain openai python-dotenv
-````
+
 
 ### 2️⃣ Clone This Repository
 
