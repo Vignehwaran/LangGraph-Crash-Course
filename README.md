@@ -62,10 +62,6 @@ python 01_basicchatbot.py
 
 ## 🔍 What You’ll Build
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/langgraph-crash-course/main/assets/langgraph_flow.png" width="600" alt="LangGraph Flow Preview">
-</p>
-
 You’ll create:
 
 * A simple graph with a single node
@@ -113,7 +109,7 @@ This project is released under the **MIT License** – free to use, modify, and 
 
 **Vigneshwaran (Vicky)**
 📍 AI Developer | Data Science Enthusiast | Educator
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) | 🐦 [Twitter](https://twitter.com/your-handle)
+🔗 [LinkedIn](https://www.linkedin.com/in/vigneshwaran-p-613661264/) 
 
 ---
 
@@ -121,14 +117,3 @@ This project is released under the **MIT License** – free to use, modify, and 
 
 ```
 
----
-
-✅ To finalize:
-- Upload your images (`langgraph_banner.png`, `langgraph_flow.png`) to `/assets` folder.
-- Replace:
-  - `your-username` → your GitHub username
-  - `your-profile` → your LinkedIn slug
-  - `your-handle` → your Twitter/X username
-
-Would you like me to generate the `langgraph_banner.png` and `langgraph_flow.png` now?
-```
