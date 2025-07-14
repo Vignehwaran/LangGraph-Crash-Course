@@ -29,13 +29,3 @@ LangGraph sits on top of **LangChain** and works well with **LangSmith** for deb
 1. Install dependencies:
 ```bash
 pip install langgraph langchain openai python-dotenv
-
-
-
-
-📚 Resources
-LangGraph Docs
-
-LangChain GitHub
-
-
