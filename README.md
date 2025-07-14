@@ -1,4 +1,4 @@
-# 🧠 LangGraph Crash Course
+# 🦜🔗 LangGraph Crash Course
 
 This is a beginner-friendly crash course to help you learn and build applications using **LangGraph**, a framework built on top of LangChain for creating multi-step, stateful, and agent-based LLM workflows.
 
